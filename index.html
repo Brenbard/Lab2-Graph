@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Canny</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+  <img src="./photoshop-icon.svg">
+
+  <div class="inputoutput" style="margin-left: 20px; color: white;">
+    <input type="file" id="fileInput" name="file"/>
+  </div>
+</div>
+
+<img src="./spinner.svg" class="loader">
+
+<div class="root">
+  <div class="inputoutput">
+    <img id="imageSrc" alt="No Image" style="margin-right: 10px"/>
+    <canvas id="canvasOutput" style="margin-left: 10px"></canvas>
+  </div>
+</div>
+</body>
+</html>
+
+<script src="https://docs.opencv.org/3.4.0/opencv.js"></script>
+<script src="index.js"></script>
